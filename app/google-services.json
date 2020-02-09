@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "507814380714",
+    "firebase_url": "https://shared-prefences.firebaseio.com",
+    "project_id": "shared-prefences",
+    "storage_bucket": "shared-prefences.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:507814380714:android:0d5a30606f34ce03dc3cd3",
+        "android_client_info": {
+          "package_name": "com.chirag.sharedprefences"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "507814380714-eg6qljjiep3q4r2v0mubg92k147oq8iv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chirag.sharedprefences",
+            "certificate_hash": "d36e37007795dc548cbbb67ad8655697a37fca18"
+          }
+        },
+        {
+          "client_id": "507814380714-29qp9i3qfnrv00ee90mml7qi570arji1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPTFpDHn6amAmxhTh2RZduUHrn63tivZ8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "507814380714-29qp9i3qfnrv00ee90mml7qi570arji1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

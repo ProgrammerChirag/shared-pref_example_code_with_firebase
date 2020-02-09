@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/loginuiwithtreebackground"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enter details to login"
+    android:textSize="20dp"
+    android:textAlignment="textStart"
+    android:textColor="#616C6F"
+    android:textStyle="bold"
+    ></TextView>
+    <EditText
+        android:drawableTint="@android:color/holo_blue_dark"
+        android:drawablePadding="20dp"
+        android:id="@+id/email"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:drawableLeft="@drawable/ic_person_outline_black_24dp"
+        android:hint="Enter Username"
+        android:background="@drawable/mystyle"
+        ></EditText>
+    <EditText
+        android:drawableTint="@android:color/holo_blue_dark"
+        android:drawablePadding="20dp"
+        android:id="@+id/password"
+        android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+        android:hint="Enter password"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/mystyle"
+        ></EditText>
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:textAllCaps="false"
+        android:textSize="20dp"
+        android:textColor="@android:color/darker_gray"
+        android:background="@drawable/mystyle"
+        ></Button>
+</LinearLayout>

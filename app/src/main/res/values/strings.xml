@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Shared Prefences</string>
+    <string name="account_id">loginid</string>
+</resources>
